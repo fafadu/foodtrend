@@ -1,0 +1,7 @@
+將mongoDB連線至Tableau
+1. 下載Mongo Connector for BI (https://www.mongodb.com/download-center#bi-connector)
+2. 打開MongoDB讓他有在運行
+3. 在有mongodrdl.exe的目錄按SHIFT+右鍵 => 在這裡開啟POWERSHELL視窗 
+   => 生成drdl檔 : mongodrdl --host localhost --port 27017 --db db名 --out d:\drdl檔名.drdl 
+   => 運行mongosqld : mongosqld --schema d:\drdl檔名.drdl => 最後會顯示"waiting for connections at 127.0.0.1:3307"
+4. 打開tableau : 連線 => 更多 => MongoDB BI連接器 => 伺服器 : 127.0.0.1 / 連接阜 : 3307
