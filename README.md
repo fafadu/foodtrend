@@ -9,3 +9,4 @@
 3. 利用python程式,一一將CSV檔讀取並匯入至mongoDB。    --CSV匯入mongo.ipynb
 4. 架設API,供使用者存取其指定的集團餐廳的數據內容。    --API.py
 5. Tableau直接連結mongoDB的資料,視覺化作圖以分析資料。    --MongoDB連上Tableau.txt
+6. Jieba 斷詞分析 Ptt Food版關鍵詞       -- Ptt Food Jieba.py
