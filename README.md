@@ -13,5 +13,5 @@
 6. 架設API,供使用者存取其指定的集團餐廳的數據內容。    --API.py
 7. Tableau直接連結mongoDB的資料,視覺化作圖以分析資料。    --MongoDB連上Tableau.txt
    - ifoodie視覺化連結 : https://public.tableau.com/app/profile/fafa5465/viz/ifoodie/sheet8_1
-   - PTTFOOD連結 :https://public.tableau.com/app/profile/fafa5465/viz/PTTFOOD/2
+   - PTTFOOD連結 :https://public.tableau.com/app/profile/fafa5465/viz/PTTFOOD/sheet2_1
 8. (加分)運用plotly作圖,直接在網頁上呈現內容    --cat_windrose.html、bubble.html、distribution.html
