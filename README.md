@@ -6,7 +6,7 @@
 1. 爬取愛食記網頁有用資訊,如:店家評分、按讚數、食記/評論內容...等,並將所爬取的資訊整理後存成CSV檔。       
    --愛食記資料蒐集.ipynb  (google_map/PIXNET/Tripadvisor.csv CREDITED TO 其他組分享)
 2. 針對評論/食記內容進行情感分析,獲取分數作為一項參考值,並存成新的CSV檔。    --文本分析.ipynb
-3. 爬取PTT Food版    -- 
+3. 爬取PTT Food版    -- reviewNLP.py
 4. 針對Ptt Food版,運用Jieba進行斷詞分析以獲得關鍵詞(消費者喜好分析)       -- Ptt Food Jieba.py
 5. 利用python程式,一一將CSV檔讀取並匯入至mongoDB。    --CSV匯入mongo.ipynb
 6. 架設API,供使用者存取其指定的集團餐廳的數據內容。    --API.py
