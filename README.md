@@ -17,8 +17,7 @@ File: API.py
 Tableau connects to MongoDB data for data visualization and analysis.
 File: Connecting MongoDB to Tableau.txt
 #### Visualization links:
-ifoodie: [Link](https://public.tableau.com/app/profile/fafa5465/viz/ifoodie/sheet8_1)
-
+ifoodie: [Link](https://public.tableau.com/views/ifoodie/Dashboard1_1?:language=en-US&:display_count=n&:origin=viz_share_link)
 PTTFOOD: [Link](https://public.tableau.com/app/profile/fafa5465/viz/PTTFOOD/sheet2_1)
 
 # DataAnalyzeProject
