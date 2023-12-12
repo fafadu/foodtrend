@@ -1,3 +1,26 @@
+## FoodTrendDataAnalyzeProject
+### Trend analysis in the food industry for 3 companies in Taiwan, Wowprime, Viva Taiwan, and Han Lai Cuisine. This analysis includes factors such as brand popularity and consumer preference trends.
+#### Data Sources: 
+Data was collected from sources including iFoodie, PTT Food forum, Google Maps reviews, Tripadvisor, and Pixnet.
+#### Detailed Steps: 
+##### 1. Web scraping:
+Web scraping from iFoodie to gather useful information such as restaurant ratings, likes, user reviews/comments, etc. The collected data is then organized and saved as CSV files.
+##### 2. sentiment-analyzed 
+The collected comments/reviews were sentiment-analyzed to get a score as a reference value, which was then saved as a new CSV file.
+##### 3. Python -CSV -MongoDB 
+Python scripts are used to read each CSV file and import them into MongoDB.
+File: CSV to MongoDB.ipynb
+##### 4. API for users queries
+An API is created to allow users to access data related to their specified restaurant groups.
+File: API.py
+##### 5. Tableau visualization
+Tableau connects to MongoDB data for data visualization and analysis.
+File: Connecting MongoDB to Tableau.txt
+#### Visualization links:
+ifoodie: [Link](https://public.tableau.com/app/profile/fafa5465/viz/ifoodie/sheet8_1)
+
+PTTFOOD: [Link](https://public.tableau.com/app/profile/fafa5465/viz/PTTFOOD/sheet2_1)
+
 # DataAnalyzeProject
 ## 此為大數據視覺化班一條龍專案,詳細內容如下 : 
 - 主題 : 針對王品集團、瓦城泰統、漢來美食,進行餐飲趨勢分析,如:旗下各餐飲品牌聲量、消費者喜好轉換的趨勢等
